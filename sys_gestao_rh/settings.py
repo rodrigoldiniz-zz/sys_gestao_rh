@@ -43,7 +43,9 @@ THIRD_APPS = [
 ]
 
 PROJECT_APPS = [
-        'apps.empresas', 'apps.funcionarios'
+        'apps.empresas', 
+        'apps.funcionarios', 
+        'apps.departamentos',
 ]
 
 MIDDLEWARE = [
