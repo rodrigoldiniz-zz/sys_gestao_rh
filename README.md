@@ -1,0 +1,1 @@
+Aplicação desenvolvida durante o treinamento de Desenvolvimento avançado de aplicações corporativas com Django
