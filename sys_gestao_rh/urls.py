@@ -8,6 +8,8 @@ urlpatterns = [
          include('apps.core.urls', namespace='core')),
     path('funcionarios/',
          include('apps.funcionarios.urls', namespace='funcionarios')),
+    path('departamentos/',
+         include('apps.departamentos.urls', namespace='departamentos')),
     path('empresas/',
          include('apps.empresas.urls', namespace='empresas')),
     path('admin/', admin.site.urls),

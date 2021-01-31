@@ -7,6 +7,7 @@
           <div class="col-sm">
             Olá: {{ usuario.funcionario.nome }}
             <a href="{% url 'funcionarios:list_funcionarios' %}">Gerenciar Funcionarios</a>
+            <a href="{% url 'departamentos:list_departamentos' %}">Gerenciar Departamentos</a>
           </div>
           <div class="col-sm">
             {% if usuario.funcionario.empresa %}
