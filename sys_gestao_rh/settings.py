@@ -22,6 +22,7 @@ DJANGO_APPS = [
 ]
 
 THIRD_APPS = [
+    'bootstrapform',
 ]
 
 PROJECT_APPS = [
